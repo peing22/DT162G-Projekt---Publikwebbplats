@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from "./components/header.component";
+import Background from "./components/background.component";
+import Exercises from "./components/exercises.component";
+import Contact from "./components/contact.component";
 
-function App() {
+// Exporterar huvudkomponent för applikationen
+export default function App() {
+
+  // Skapar navigationsstruktur där varje sida har sin egen sökväg
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Background />} />
+        <Route path="/bakgrund" element={<Background />} />
+        <Route path="/ovningar" element={<Exercises />} />
+        <Route path="/kontakt" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
