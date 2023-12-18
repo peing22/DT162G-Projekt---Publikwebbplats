@@ -1,3 +1,103 @@
+/* BODY */
 body {
-    font-family: 'Arial', sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Positionerar sidans innehåll för att footern ska stanna längst ner */
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Lägger till padding för att sidans innehåll inte ska hamna bakom footern */
+.content-wrap {
+  padding-bottom: 100px;
+}
+
+/* SIDHUVUD */
+.banner-logo {
+  position: relative;
+}
+
+.banner-logo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Logotypen på bannern */
+.logotype {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  font-family: 'Shadows Into Light', Arial, sans-serif;
+  font-size: 18px;
+}
+
+@media (min-width: 400px) {
+  .logotype {
+    top: 34%;
+    left: 40%;
+    font-size: 20px;
   }
+}
+
+@media (min-width: 600px) {
+  .logotype {
+    top: 40%;
+    left: 44%;
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 800px) {
+  .logotype {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .logotype {
+    font-size: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .logotype {
+    font-size: 52px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .logotype {
+    left: 46%;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .logotype {
+    top: 42%;
+    left: 48%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .logotype {
+    top: 45%;
+    left: 50%;
+  }
+}
+
+.logotype a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 0px 8px #000000;
+}
+
+/* SIDFOT */
+footer {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  bottom: 0;
+}
