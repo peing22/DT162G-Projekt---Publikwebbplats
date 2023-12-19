@@ -12,7 +12,6 @@ export default function Background() {
             <p>Musklerna, skelettet och lederna stärks när de belastas, och kroppen anpassar sig efter de krav den utsätts för. Just muskulaturen tänker vi i första hand på som ett redskap för att röra våra ben och armar, men muskulaturen gör så mycket mer. Musklerna är en källa till produktion av hormoner och andra ämnen som påverkar oss.</p>
             <p>När vi använder våra muskler och tränar dem blir vi inte bara starkare. Vi ökar också vår livskvalitet och livslängd samt förebygger och minskar risken för sjukdomar såsom diabetes, Alzheimers sjukdom och hjärt- och kärlsjukdomar.</p>
             <p>Träningen av våra muskler behöver ske strukturerat, på rätt nivå och med rätt svårighetsgrad för att ge önskad effekt. Denna webbplats innehåller olika <Link to="/ovningar">övningar</Link> som du kan utföra i hemmet eller på gymmet för att uppnå ditt mål.</p>
-            <p>Träna för att leva!</p>
         </article>
     );
 }
