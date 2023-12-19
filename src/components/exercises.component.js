@@ -26,17 +26,22 @@ export default function Exercises() {
     return (
         <article className="exercises">
             <h1>Övningar</h1>
-            <p>På denna sida finns ett antal övningar med tillhörande beskrivning och film. Varje film innehåller tre olika nivåer där den sista nivån utförs på gym.</p>
-            <p>Välj en övning per film och utför den tre gånger tio repetitioner vid varje träningstillfälle.</p>
-            {exercises.map((exercise) => (
-                <div key={exercise._id}>
-                    <h3>{exercise.exercisename}</h3>
-                    <p>{exercise.description}</p>
-                    <video src={`http://localhost:3050/uploads/${exercise.filename}`} width={300} controls>
-                        Din webbläsare kan inte visa videon...
-                    </video>
-                </div>
-            ))}
+            <p>På denna sida finns ett antal övningar med tillhörande beskrivning och film. Varje film innehåller tre olika nivåer där den sista nivån utförs på gym. Välj en övning per film och utför den tre gånger tio repetitioner vid varje träningstillfälle.</p>
+            <div className="flex-container">
+                {exercises.map((exercise) => (
+                    <div key={exercise._id} className="exercise">
+                        <h2>{exercise.exercisename}</h2>
+                        <p>{exercise.description}</p>
+                        <div className="video-container">
+                            <div className="video-wrap">
+                                <video src={`http://localhost:3050/uploads/${exercise.filename}`} controls>
+                                    Din webbläsare kan inte visa videon...
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                ))}
+            </div>
         </article>
     );
 }
