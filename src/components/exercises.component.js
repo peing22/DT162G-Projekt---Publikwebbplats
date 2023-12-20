@@ -15,7 +15,7 @@ export default function Exercises() {
     // Hämtar övningar från servern och uppdaterar tillståndsvariabeln som lagrar övningarna
     const getExercises = async () => {
         try {
-            const response = await axios.get("http://localhost:3050/exercises");
+            const response = await axios.get("http://localhost:3001/exercises");
             setExercises(response.data);
         } catch (error) {
             console.error("Felmeddelande:", error);
@@ -34,7 +34,7 @@ export default function Exercises() {
                         <p>{exercise.description}</p>
                         <div className="video-container">
                             <div className="video-wrap">
-                                <video src={`http://localhost:3050/uploads/${exercise.filename}`} controls>
+                                <video src={`http://localhost:3001/uploads/${exercise.filename}`} controls>
                                     Din webbläsare kan inte visa videon...
                                 </video>
                             </div>
