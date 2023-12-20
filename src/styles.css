@@ -145,22 +145,23 @@ header li a {
   text-transform: uppercase;
   line-height: 15px;
   letter-spacing: 0.1em;
-  padding: 5px 15px;
-  border-top: 1px solid #17364a;
-  border-bottom: 1px solid #17364a;
-  transition: 0.3s;
+  padding: 5px 10px;
 }
 
 @media (min-width: 600px) {
   header li a {
     font-size: 16px;
     line-height: 20px;
+    padding: 5px 15px;
+    border-top: 1px solid #17364a;
+    border-bottom: 1px solid #17364a;
+    transition: 0.3s;
   }
-}
 
-header li a:hover {
-  border-top: 1px solid #6591ac;
-  border-bottom: 1px solid #6591ac;
+  header li a:hover {
+    border-top: 1px solid #6591ac;
+    border-bottom: 1px solid #6591ac;
+  }
 }
 
 
@@ -243,7 +244,7 @@ main a:hover {
   flex-direction: column;
   align-items: center;
   max-width: 450px;
-  
+
 }
 
 .exercise p {
