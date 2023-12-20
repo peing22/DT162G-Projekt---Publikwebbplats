@@ -36,22 +36,22 @@ body {
 /* Logotypen på bannern */
 .logotype {
   position: absolute;
-  top: 30%;
-  left: 40%;
+  top: 32%;
+  right: 25%;
   font-family: 'Shadows Into Light', Arial, sans-serif;
   font-size: 18px;
+  letter-spacing: 0.05em;
 }
 
 @media (min-width: 375px) {
   .logotype {
-    top: 32%;
-    left: 42%;
+    top: 34%;
   }
 }
 
 @media (min-width: 400px) {
   .logotype {
-    top: 34%;
+    top: 36%;
     font-size: 20px;
   }
 }
@@ -59,7 +59,6 @@ body {
 @media (min-width: 600px) {
   .logotype {
     top: 40%;
-    left: 44%;
     font-size: 26px;
   }
 }
@@ -84,7 +83,6 @@ body {
 
 @media (min-width: 1400px) {
   .logotype {
-    left: 46%;
     font-size: 60px;
   }
 }
@@ -92,14 +90,12 @@ body {
 @media (min-width: 1600px) {
   .logotype {
     top: 42%;
-    left: 48%;
   }
 }
 
 @media (min-width: 1800px) {
   .logotype {
     top: 45%;
-    left: 50%;
   }
 }
 
@@ -179,7 +175,6 @@ h1 {
   font-size: 32px;
   line-height: 39px;
   letter-spacing: 0.05em;
-  text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
   margin-top: 25px;
@@ -187,6 +182,7 @@ h1 {
 
 @media (min-width: 600px) {
   h1 {
+    text-align: center;
     font-size: 48px;
     line-height: 59px;
     margin-bottom: 25px;
@@ -195,6 +191,7 @@ h1 {
 }
 
 h2 {
+  width: 100%;
   font-weight: 700;
   font-size: 24px;
   letter-spacing: 0.05em;
@@ -205,6 +202,7 @@ h2 {
 @media (min-width: 600px) {
   h2 {
     font-size: 30px;
+    text-align: center;
   }
 }
 
@@ -213,7 +211,6 @@ main p {
   font-weight: 300;
   font-size: 14px;
   line-height: 22px;
-  text-align: center;
   margin-bottom: 15px;
 }
 
@@ -221,6 +218,7 @@ main p {
   main p {
     font-size: 20px;
     line-height: 32px;
+    text-align: center;
     max-width: 920px;
     margin: auto;
     margin-bottom: 25px;
@@ -246,7 +244,7 @@ main a:hover {
   flex-direction: column;
   align-items: center;
   max-width: 400px;
-  margin: auto;
+  
 }
 
 .exercise p {
@@ -257,6 +255,7 @@ main a:hover {
 @media (min-width: 600px) {
   .exercise {
     padding-bottom: 30px;
+    margin: auto;
   }
 
   .exercise p {
@@ -302,18 +301,29 @@ main a:hover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 5px;
 }
 
 /* Kontakt */
 .contact-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .fa-solid {
+  padding-left: 10px;
   padding-right: 10px;
   color: #0d1f2b;
+}
+
+@media (min-width: 600px) {
+  .contact-info {
+    align-items: center;
+  }
+
+  .fa-solid {
+    padding-left: 0;
+  }
 }
 
 .phone {
@@ -331,6 +341,7 @@ main a:hover {
   width: 100%;
   max-width: 400px;
   height: auto;
+  border-radius: 5px;
   margin-bottom: 20px;
 }
 
@@ -340,12 +351,10 @@ main a:hover {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .contact-info {
     max-width: 580px;
     margin: auto;
-    border: 1px solid #0d1f2b55;
-    box-shadow: 8px 8px 8px #0d1f2b55;
     flex-direction: row-reverse;
     justify-content: space-between;
     margin-top: 40px;
@@ -363,7 +372,6 @@ main a:hover {
 
   .contact img {
     width: 200px;
-    border-radius: 50%;
     margin-bottom: 0;
   }
 }
