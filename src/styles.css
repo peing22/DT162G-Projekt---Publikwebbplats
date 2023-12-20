@@ -202,7 +202,6 @@ h2 {
 @media (min-width: 600px) {
   h2 {
     font-size: 30px;
-    text-align: center;
   }
 }
 
@@ -243,7 +242,7 @@ main a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 400px;
+  max-width: 450px;
   
 }
 
@@ -261,10 +260,11 @@ main a:hover {
   .exercise p {
     margin-top: 5px;
     margin-bottom: 10px;
+    text-align: left;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .exercise {
     flex-grow: 1;
     padding-top: 20px;
@@ -272,7 +272,7 @@ main a:hover {
   }
 
   .flex-container {
-    max-width: 1000px;
+    max-width: 1050px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -282,7 +282,7 @@ main a:hover {
 
 .video-container {
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }
 
 /* För att skapa aspect-ratio 1:1 */
