@@ -26,7 +26,7 @@ export default function Exercises() {
     return (
         <article className="exercises">
             <h1>Övningar</h1>
-            <p>På denna sida finns ett antal övningar med till&shy;hörande beskriv&shy;ning och film. Varje film inne&shy;håller tre olika nivåer där den sista nivån utförs på gym. Välj en övning per film och utför den tre gånger tio repeti&shy;tioner vid varje tränings&shy;tillfälle.</p>
+            <p>På denna sida finns ett antal övningar med tillhörande beskrivning och film. Varje film innehåller tre olika nivåer där den sista nivån utförs på gym. Välj en övning per film och utför den tre gånger tio repetitioner vid varje träningstillfälle.</p>
             <div className="flex-container">
                 {exercises.map((exercise) => (
                     <div key={exercise._id} className="exercise">
