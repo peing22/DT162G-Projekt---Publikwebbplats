@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 // Exporterar bakgrunds-komponent
 export default function Background() {
