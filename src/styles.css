@@ -1,7 +1,7 @@
 /* BODY */
 body {
   font-family: 'Montserrat', Arial, sans-serif;
-  color: #0d1f2b;
+  color: black;
 }
 
 /* Positionerar sidans innehåll för att footern ska stanna längst ner */
@@ -25,7 +25,7 @@ body {
 /* SIDHUVUD */
 .banner-logo {
   position: relative;
-  background-color: #0d1f2b;
+  background-color: black;
 }
 
 .banner-logo img {
@@ -102,12 +102,12 @@ body {
 .logotype a {
   color: white;
   text-decoration: none;
-  text-shadow: 0px 0px 8px #0d1f2b;
+  text-shadow: 0px 0px 8px black;
 }
 
 /* Navigering */
 header nav {
-  background-color: #0d1f2b;
+  background-color: black;
   height: 40px;
 }
 
@@ -153,14 +153,14 @@ header li a {
     font-size: 16px;
     line-height: 20px;
     padding: 5px 15px;
-    border-top: 1px solid #17364a;
-    border-bottom: 1px solid #17364a;
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
     transition: 0.3s;
   }
 
   header li a:hover {
-    border-top: 1px solid #6591ac;
-    border-bottom: 1px solid #6591ac;
+    border-top: 1px solid #6a6a6a;
+    border-bottom: 1px solid #6a6a6a;
   }
 }
 
@@ -233,7 +233,7 @@ main a {
 }
 
 main a:hover {
-  color: #0d1f2b;
+  color: black;
 }
 
 /* Övningar */
@@ -314,7 +314,7 @@ main a:hover {
 .fa-solid {
   padding-left: 10px;
   padding-right: 10px;
-  color: #0d1f2b;
+  color: black;
 }
 
 @media (min-width: 600px) {
@@ -382,7 +382,7 @@ main a:hover {
 footer {
   width: 100%;
   height: fit-content;
-  background-color: #0d1f2b;
+  background-color: black;
   color: white;
   text-align: center;
   font-weight: 400;
