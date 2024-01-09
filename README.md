@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# DT162G Projekt publik webbplats
+Repo för del av projektarbete i kursen *JavaScriptbaserad Webbutveckling*.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
