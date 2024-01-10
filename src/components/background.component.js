@@ -3,7 +3,7 @@ import React from "react";
 // Exporterar bakgrunds-komponent
 export default function Background() {
 
-    // Renderar article-element
+    // Renderar article-element med innehåll
     return (
         <article className="background">
             <h1>Bakgrund</h1>

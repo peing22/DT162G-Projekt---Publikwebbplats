@@ -3,7 +3,7 @@ import React from "react";
 // Exporterar contact-komponent
 export default function Contact() {
 
-    // Renderar article-element
+    // Renderar article-element med innehåll
     return (
         <article className="contact">
             <h1>Kontakt</h1>

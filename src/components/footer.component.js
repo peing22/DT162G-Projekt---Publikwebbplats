@@ -6,7 +6,7 @@ export default function Footer() {
     // Lagrar aktuellt år i en variabel
     const currentYear = new Date().getFullYear();
 
-    // Renderar footer-element
+    // Renderar footer-element med innehåll
     return (
         <footer>
             <p>&copy; {currentYear} Per Ingemarsson AB</p>
