@@ -1,4 +1,4 @@
-# DT162G Projekt publik webbplats
+# Projekt DT162G: Publik webbplats
 Repo för del av projektarbete i kursen *JavaScriptbaserad Webbutveckling*.
 
 ## Getting Started with Create React App
